@@ -1,0 +1,31 @@
+{
+  "name": "js-coding",
+  "version": "1.0.0",
+  "description": "JS coding challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocelotconsulting/js-coding.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "John O'Malley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocelotconsulting/js-coding/issues"
+  },
+  "homepage": "https://github.com/ocelotconsulting/js-coding#readme",
+  "dependencies": {
+    "jest": "^27.0.4"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.spec.js"
+    ],
+    "testEnvironment": "node"
+  }
+}
